@@ -176,7 +176,7 @@ html::-webkit-scrollbar-thumb{
 .container .information .skills .box-container{
   display: flex;
   flex-wrap: wrap;
-  gap:15px;
+  gap:30px;
 }
 
 .container .information .skills .box-container .box{
@@ -184,7 +184,7 @@ html::-webkit-scrollbar-thumb{
 }
 
 .container .information .skills .box-container .box .progress h3{
-  padding: 10px 0;
+  padding: 20px 0;
   display: flex;
   justify-content: space-between;
   color:var(--black);
@@ -210,31 +210,35 @@ html::-webkit-scrollbar-thumb{
 }
 
 .container .information .skills .box-container .box:first-child .progress:nth-child(1) .bar span{
-  width: 95%;
+  width: 388.24px;
 }
 
 .container .information .skills .box-container .box:first-child .progress:nth-child(2) .bar span{
-  width: 50%;
+  width: 30.06px;
 }
 
 .container .information .skills .box-container .box:first-child .progress:nth-child(3) .bar span{
-  width: 85%;
+  width: 70%;
 }
 
 .container .information .skills .box-container .box:first-child .progress:nth-child(4) .bar span{
-  width: 75%;
+  width: 65%;
 }
 
 .container .information .skills .box-container .box:last-child .progress:nth-child(1) .bar span{
-  width: 90%;
+  width: 388.24px;
 }
 
 .container .information .skills .box-container .box:last-child .progress:nth-child(2) .bar span{
-  width: 75%;
+  width: 70%;
 }
 
 .container .information .skills .box-container .box:last-child .progress:nth-child(3) .bar span{
-  width: 70%;
+  width: 60%;
+}
+
+.container .information .skills .box-container .box:last-child .progress:nth-child(4) .bar span{
+  width: 60%;
 }
 
 .container .information .experience{
@@ -273,21 +277,21 @@ html::-webkit-scrollbar-thumb{
 
 .container .information .contact .box-container{
   display: flex;
-  /*flex-wrap: wrap;*/
-  gap:15px;
+  flex-wrap: wrap;
+  gap:1px;
 }
 
 .container .information .contact .box-container .box{
   flex: 1 1 200px;
   display: flex;
   align-self: flex-start;
-  gap:10px;
+  gap:5px;
 }
 
 .container .information .contact .box-container .box i{
-  height: 40px;
-  width: 40px;
-  line-height: 40px;
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
   font-size: 15px;
   border-radius: 50%;
   background: var(--blue);
@@ -298,7 +302,7 @@ html::-webkit-scrollbar-thumb{
 .container .information .contact .box-container .box h3{
   font-size: 17px;
   color:var(--black);
-  padding-bottom: 5px;
+  padding-bottom: 8px;
 }
 
 .container .information .contact .box-container .box p{
